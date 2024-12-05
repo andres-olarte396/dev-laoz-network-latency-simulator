@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced Network Speed Simulator</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="../dev-laoz-WaveArtCSS/src/theme.css" />
+    <link rel="stylesheet" href="../dev-laoz-WaveArtCSS/src/base.css" />
+    <link rel="stylesheet" href="../dev-laoz-WaveArtCSS/src/components.css" />
+    <link
+      rel="icon"
+      href="../dev-laoz-WaveArtCSS/assets/favicons/favicon.png"
+      type="image/x-icon"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Advanced Network Speed Simulator</h1>
+    </header>
+    <main>
+      <div class="container">
+        <p>
+          This network speed simulator allows you to simulate network conditions
+          such as speed, latency, and packet loss. You can use this tool to test
+          how your website or application performs under different network
+          conditions.
+        </p>
+        <fieldset>
+          <legend>Advanced Network Speed Simulator</legend>
+  
+          <div class="controls">
+            <label for="speed">Base Speed (KBps):</label>
+            <input
+              type="number"
+              id="speed"
+              placeholder="Enter base speed (e.g., 50)"
+            />
+  
+            <label for="latency">Latency (ms):</label>
+            <input
+              type="number"
+              id="latency"
+              placeholder="Enter latency (e.g., 200)"
+            />
+  
+            <label for="loss">Packet Loss (%):</label>
+            <input
+              type="number"
+              id="loss"
+              placeholder="Enter packet loss (e.g., 10)"
+              max="100"
+              min="0"
+              />
+  
+            <button id="start">Start Simulation</button>
+            <button id="stop">Stop Simulation</button>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Velocímetros</legend>
+          <div class="simulation">
+            <h2>Velocímetros</h2>
+            <div class="gauges">
+              <canvas id="downloadGauge"></canvas>
+              <canvas id="uploadGauge"></canvas>
+            </div>
+            <div id="output">Waiting to start...</div>
+          </div>
+        </fieldset>
+      </div>
+    </main>
+    <footer>
+      © 2024 My Business. All rights reserved.
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
