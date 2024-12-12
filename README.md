@@ -1,62 +1,74 @@
-# Minificador de JavaScript y CSS
+# Simulador Avanzado de Velocidad de Red
 
-Este proyecto es una herramienta web que permite minificar y desminificar archivos de CSS y JavaScript. Es útil para mejorar el rendimiento de los sitios web al reducir el tamaño de los archivos.
+## Descripción
+
+El **Simulador Avanzado de Velocidad de Red** es una herramienta poderosa que te permite simular diversas condiciones de red, como velocidad, latencia y pérdida de paquetes. Este simulador es ideal para desarrolladores, ingenieros de QA y entusiastas de redes que deseen probar cómo funcionan sitios web o aplicaciones bajo diferentes escenarios de red.
 
 ## Características
 
-- Minificación de archivos JavaScript y CSS.
-- Desminificación de archivos JavaScript y CSS.
-- Interfaz simple y amigable.
+- **Simulación de Velocidad de Red:** Emula diferentes anchos de banda para probar el comportamiento de tu aplicación con conexiones rápidas o lentas.
+- **Control de Latencia:** Agrega latencia para replicar retrasos reales en la red.
+- **Simulación de Pérdida de Paquetes:** Introduce pérdida de paquetes para evaluar la robustez y manejo de errores de tus aplicaciones.
+- **Configuración Flexible:** Ajusta fácilmente los parámetros de red para adaptarlos a tus necesidades de prueba.
 
-## Tecnologías utilizadas
+## Casos de Uso
 
-- **HTML5**
-- **CSS3**
-- **JavaScript (ES6+)**
+- Probar cómo se comportan los sitios web en conexiones lentas o inestables.
+- Simular condiciones de redes móviles para optimizar aplicaciones en diferentes regiones.
+- Validar el manejo de errores y mecanismos de respaldo bajo condiciones adversas.
+- Evaluar el rendimiento de aplicaciones de streaming con variaciones de velocidad y latencia.
 
-## Cómo usar
+## 🚀 Requisitos
 
-1. Clona este repositorio o descarga el archivo.
-2. Abre el archivo `index.html` en tu navegador.
-3. Selecciona el tipo de archivo (JavaScript o CSS).
-4. Ingresa el código en el área de texto.
-5. Haz clic en **Minificar** para reducir el tamaño del código.
-6. Haz clic en **Desminificar** para hacer que el código sea más legible.
+- **Sistema Operativo:** Windows, macOS o Linux.
+- **Dependencias:**
+  - [Añade aquí las dependencias necesarias, por ejemplo, Node.js, Python, etc.]
 
-## Ejemplo de uso
+## 🛠️  Instalación
 
-- **Código JavaScript original**:
+1. Clona el repositorio:
 
-    ```javascript
-    function hello() {
-        console.log("Hello, World!");
-    }
-    ```
+   ```bash
+   git clone https://github.com/tu-usuario/simulador-avanzado-velocidad-red.git
+   cd simulador-avanzado-velocidad-red
+   ```
 
-- **Código JavaScript minificado**:
+2. Instala las dependencias necesarias:
 
-    ```javascript
-    function hello(){console.log("Hello, World!");}
-    ```
+   ```bash
+   [Agrega aquí el comando de instalación]
+   ```
 
-- **Código CSS original**:
+3. Ejecuta la aplicación:
 
-    ```css
-    body {
-        background-color: white;
-    }
-    ```
+   ```bash
+   [Agrega aquí el comando de ejecución]
+   ```
 
-- **Código CSS minificado**:
+## Uso
 
-    ```css
-    body{background-color:white;}
-    ```
+1. Inicia la aplicación y selecciona los parámetros de red deseados (velocidad, latencia, pérdida de paquetes).
+2. Comienza la simulación y observa el rendimiento de tu aplicación bajo las condiciones especificadas.
+3. Ajusta los parámetros según sea necesario para realizar más pruebas.
 
-## Contribuciones
+## 🤝 Contribuciones
 
-Las contribuciones son bienvenidas. Si tienes sugerencias o encuentras errores, por favor, abre un issue o envía un pull request.
+¡Las contribuciones son bienvenidas! Si deseas mejorar el proyecto o reportar un problema, sigue estos pasos:
 
-## Licencia
+1. Haz un fork del repositorio.
+2. Crea una nueva rama: `git checkout -b nombre-de-la-funcionalidad`.
+3. Realiza tus cambios y haz un commit: `git commit -m 'Añadir nueva funcionalidad'`.
+4. Sube tus cambios: `git push origin nombre-de-la-funcionalidad`.
+5. Abre un pull request.
 
-Este proyecto está bajo la licencia MIT.
+## 🛡️ Licencia
+
+Este proyecto está bajo la licencia [MIT](LICENSE).
+
+---
+
+## 👤 Créditos
+
+Desarrollado originalmente por [andres-olarte396](https://github.com/andres-olarte396).
+
+---
