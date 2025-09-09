@@ -2,7 +2,7 @@
 
 ## Descripción
 
-El **Simulador Avanzado de Velocidad de Red** es una herramienta poderosa que te permite simular diversas condiciones de red, como velocidad, latencia y pérdida de paquetes. Este simulador es ideal para desarrolladores, ingenieros de QA y entusiastas de redes que deseen probar cómo funcionan sitios web o aplicaciones bajo diferentes escenarios de red.
+El **Simulador Avanzado de Velocidad de Red** es una herramienta que te permite simular diversas condiciones de red, como velocidad, latencia y pérdida de paquetes. Este simulador es ideal para desarrolladores, ingenieros de QA y entusiastas de redes que deseen probar cómo funcionan sitios web o aplicaciones bajo diferentes escenarios de red.
 
 ## Características
 
